@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>zadanie1</title>
+    <style>
+        .flex-contariner{
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .flex-container > .column{
+            background-color: lightblue;
+            text-align: center;
+            margin: 10px;
+            width: 100%;
+            padding: 20px;
+            line-height: 100px;
+            
+        }
+        .flex-container2{
+            display: flex;
+            align-items: center;
+            
+        }
+        .flex-container2 > .box{
+            background-color: lightblue;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            
+        }
+    </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <el class="column">Kolumna 1</el>
+            <el class="column">Kolumna 2</el>
+            <el class="column">Kolumna 3</el>
+        </div>
+        <div class="flex-container2">
+            <el class="box">Element 1</el>
+            <el class="box">Element 2</el>
+            <el class="box">Element 3</el>
+        </div>
+    </body>
+</html>

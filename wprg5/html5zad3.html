@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>zad3</title>
+        <style>
+            .row{
+                display: flex;
+            }
+            .row > .equal-width{
+                text-align: center;
+                background-color: lightblue;
+                width: auto;
+                line-height: 100px;
+                flex-grow: 1;
+                margin: 15px;
+            }
+            .row2{
+                display: flex;
+            }
+            .row2 > .fixed-percentage{
+                text-align: center;
+                background-color: lightblue;
+                width: 40%;
+                flex-grow: 1;
+                line-height: 100px;
+                margin: 15px;
+            }
+            .row2 > .flexible{
+                text-align: center;
+                background-color: lightblue;
+                flex-grow: 1;
+                line-height: 100px;
+                margin: 15px;
+                width: 60%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <el class="equal-width">Element 1</el>
+            <el class="equal-width">Element 2</el>
+            <el class="equal-width">Element 3</el>
+        </div>
+        <div class="row2">
+            <el class="fixed-percentage">Element 4</el>
+            <el class="flexible">Element 5</el>
+        </div>
+    </body>
+</html>
