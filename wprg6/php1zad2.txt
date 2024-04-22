@@ -1,0 +1,18 @@
+<?php 
+$a_1 = 2;
+$q = 3;
+$n = 10;
+
+$p = pow($q, $n);
+
+//$suma_aryt=(($n+$a_1)/2)*$n;
+
+$suma_aryt=(((2*$a_1+($n-1)*$q))/2)*$n;
+$suma_geo=($a_1*((1-$p)/(1-$q)));
+
+echo "Suma ciągu arytmetycznego: " . $suma_aryt . "\n";
+
+echo "Suma ciągu geometrycznego: " . $suma_geo . "\n";
+
+
+?>

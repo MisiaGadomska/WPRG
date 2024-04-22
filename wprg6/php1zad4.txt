@@ -1,0 +1,17 @@
+<?php 
+function suma_liczb($liczba){
+while ($liczba >= 10) {
+	$suma =0;
+    
+while ($liczba != 0) {
+	$suma += $liczba % 10;
+    $liczba = floor($liczba / 10);
+    }
+    $liczba = $suma;
+ }
+return $liczba; 
+}
+
+$liczba = 123;
+echo "Suma cyfr to: " . suma_liczb($liczba);
+?>
